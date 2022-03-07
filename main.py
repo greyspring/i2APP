@@ -11,7 +11,7 @@ from imblearn.under_sampling import RandomUnderSampler
 from sklearn.svm import SVC
 import lightgbm as lgb
 from sklearn.model_selection import KFold
-# from minepy import MINE
+from minepy import MINE
 def dataprocessing(filepath):
     # print ("Loading feature files")
     dataset1 = pd.read_csv(filepath[0], header=None, low_memory=False)
